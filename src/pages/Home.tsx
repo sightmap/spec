@@ -7,6 +7,7 @@ import HowItWorksSection from '@/components/HowItWorksSection'
 import AgentSection from '@/components/AgentSection'
 import SchemaSection from '@/components/SchemaSection'
 import DirectorySection from '@/components/DirectorySection'
+import ToolingSection from '@/components/ToolingSection'
 import RoadmapSection from '@/components/RoadmapSection'
 import CTASection from '@/components/CTASection'
 import Footer from '@/components/Footer'
@@ -28,6 +29,8 @@ export default function Home() {
       <SchemaSection />
       <hr className="divider" />
       <DirectorySection />
+      <hr className="divider" />
+      <ToolingSection />
       <hr className="divider" />
       <RoadmapSection />
       <hr className="divider" />
