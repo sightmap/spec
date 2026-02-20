@@ -149,4 +149,4 @@ MIT — see [LICENSE](LICENSE).
 
 ---
 
-Built by [Subtext](https://subtext.dev). The spec is open-source and evolves based on real usage and community feedback.
+Built by [Subtext](https://subtext.fullstory.com). The spec is open-source and evolves based on real usage and community feedback.

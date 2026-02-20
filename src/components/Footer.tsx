@@ -4,12 +4,12 @@ export default function Footer() {
       <div className="container">
         <div className="footer-inner">
           <div className="footer-left">
-            sightmap · open-source spec by <a href="https://subtext.dev" target="_blank" rel="noreferrer">Subtext</a>
+            sightmap · open-source spec by <a href="https://subtext.fullstory.com" target="_blank" rel="noreferrer">Subtext</a>
           </div>
           <div className="footer-links">
             <a href="https://github.com/sightmap/spec" target="_blank" rel="noreferrer">GitHub</a>
             <a href="https://github.com/sightmap/spec/blob/main/LICENSE" target="_blank" rel="noreferrer">MIT License</a>
-            <a href="https://subtext.dev" target="_blank" rel="noreferrer">Subtext</a>
+            <a href="https://subtext.fullstory.com" target="_blank" rel="noreferrer">Subtext</a>
           </div>
         </div>
       </div>

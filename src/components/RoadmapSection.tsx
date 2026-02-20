@@ -5,7 +5,7 @@ export default function RoadmapSection() {
         <div className="section-label">Roadmap</div>
         <h2>What's coming</h2>
         <p className="section-desc">
-          Sightmap is an open-source spec maintained by the <a href="https://subtext.dev" target="_blank" rel="noreferrer" style={{ color: 'var(--accent)', textDecoration: 'none' }}>Subtext</a> team. The spec evolves based on real usage and community feedback.
+          Sightmap is an open-source spec maintained by the <a href="https://subtext.fullstory.com" target="_blank" rel="noreferrer" style={{ color: 'var(--accent)', textDecoration: 'none' }}>Subtext</a> team. The spec evolves based on real usage and community feedback.
         </p>
 
         <div className="roadmap-items">

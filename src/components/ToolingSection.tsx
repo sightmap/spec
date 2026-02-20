@@ -28,9 +28,9 @@ export default function ToolingSection() {
           <div className="tooling-tier highlighted">
             <div className="tooling-tier-header">
               <span className="tooling-tier-label">Subtext</span>
-              <a href="https://subtext.dev" target="_blank" rel="noreferrer" className="tooling-tier-link">subtext.dev &rarr;</a>
+              <a href="https://subtext.fullstory.com" target="_blank" rel="noreferrer" className="tooling-tier-link">subtext.fullstory.com &rarr;</a>
             </div>
-            <p>The reference implementation. <a href="https://subtext.dev" target="_blank" rel="noreferrer" style={{ color: 'var(--accent)', textDecoration: 'none' }}>Subtext</a> is a Claude Code plugin that brings sightmap to life with runtime enrichment — browser snapshots show semantic component names instead of generic roles, guided generation walks you through selector discovery and validation, and FullStory session integration lets you diagnose real user issues.</p>
+            <p>The reference implementation. <a href="https://subtext.fullstory.com" target="_blank" rel="noreferrer" style={{ color: 'var(--accent)', textDecoration: 'none' }}>Subtext</a> is a Claude Code plugin that brings sightmap to life with runtime enrichment — browser snapshots show semantic component names instead of generic roles, guided generation walks you through selector discovery and validation, and FullStory session integration lets you diagnose real user issues.</p>
           </div>
         </div>
       </div>
