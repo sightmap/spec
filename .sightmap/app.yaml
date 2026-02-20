@@ -1,0 +1,109 @@
+version: 1
+
+views:
+  - name: HomePage
+    route: "/"
+    description: Main landing page for the Sightmap spec
+    source: src/pages/Home.tsx
+
+components:
+  - name: Navigation
+    selector: '[data-component="Navigation"]'
+    source: src/components/Navigation.tsx
+    description: Fixed header with logo and nav links
+    children:
+      - name: nav-logo
+        selector: ".nav-logo"
+      - name: nav-links
+        selector: ".nav-links"
+      - name: nav-gh
+        selector: ".nav-gh"
+
+  - name: Hero
+    selector: '[data-component="Hero"]'
+    source: src/components/Hero.tsx
+    description: Main banner with headline and CTA buttons
+    children:
+      - name: hero-badge
+        selector: ".hero-badge"
+      - name: hero-ctas
+        selector: ".hero-ctas"
+
+  - name: PitchSection
+    selector: '[data-component="PitchSection"]'
+    source: src/components/PitchSection.tsx
+    description: Short value proposition statement
+
+  - name: SpecSection
+    selector: '[data-component="SpecSection"]'
+    source: src/components/SpecSection.tsx
+    description: YAML example of the sightmap format
+    children:
+      - name: code-block
+        selector: ".code-block"
+
+  - name: WhySection
+    selector: '[data-component="WhySection"]'
+    source: src/components/WhySection.tsx
+    description: Three-column grid of value propositions
+    children:
+      - name: value-item
+        selector: ".value-item"
+
+  - name: HowItWorksSection
+    selector: '[data-component="HowItWorksSection"]'
+    source: src/components/HowItWorksSection.tsx
+    description: Three-step numbered process explanation
+    children:
+      - name: step
+        selector: ".step"
+
+  - name: AgentSection
+    selector: '[data-component="AgentSection"]'
+    source: src/components/AgentSection.tsx
+    description: Agent integration cards and code examples
+    children:
+      - name: agent-card
+        selector: ".agent-card"
+
+  - name: SchemaSection
+    selector: '[data-component="SchemaSection"]'
+    source: src/components/SchemaSection.tsx
+    description: Schema reference documentation with tables
+    children:
+      - name: schema-table
+        selector: ".schema-table"
+
+  - name: DirectorySection
+    selector: '[data-component="DirectorySection"]'
+    source: src/components/DirectorySection.tsx
+    description: Code block showing .sightmap/ directory structure
+
+  - name: ToolingSection
+    selector: '[data-component="ToolingSection"]'
+    source: src/components/ToolingSection.tsx
+    description: Three-tier tooling breakdown
+    children:
+      - name: tooling-tier
+        selector: ".tooling-tier"
+
+  - name: RoadmapSection
+    selector: '[data-component="RoadmapSection"]'
+    source: src/components/RoadmapSection.tsx
+    description: Timeline with status badges
+    children:
+      - name: roadmap-item
+        selector: ".roadmap-item"
+
+  - name: CTASection
+    selector: '[data-component="CTASection"]'
+    source: src/components/CTASection.tsx
+    description: Final call-to-action with buttons
+
+  - name: Footer
+    selector: '[data-component="Footer"]'
+    source: src/components/Footer.tsx
+    description: Copyright and social links
+    children:
+      - name: footer-links
+        selector: ".footer-links"
